@@ -166,6 +166,38 @@ header {
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Start Some fact section styles */
+
+.some-fact-text-title{
+  font-size: 2.81rem;
+  margin-bottom: 25px;
+}
+.some-fact-description{
+  color: #424242;
+  font-size: 1rem;
+}
+.some-fact-items-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.some-fact-item{
+  padding: 40px 35px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  border-radius: 8px;
+}
+.achivement{
+  font-size: 3.00rem;
+  color: #424242;
+  font-weight: 600;
+}
+.achivement-title{
+  font-size: 1.56rem;
+  color:#B9B9B9;
+}
 
 
 
@@ -229,6 +261,9 @@ header {
 .skill-feature-img, .skill-feature-text{
   width: 90%;
   padding: 0px 0px 0px 35px;
+}
+.experience{
+  font-size: 1.81rem;
 }
 }
 /* Media queries for Tablets or medium devices */
