@@ -225,7 +225,12 @@ header {
   filter: grayscale(100%);
 
 }
-
+footer{
+  text-align: center;
+  margin: 80px 250px;
+  padding: 25px 0px;
+  background: #fff4e7;
+}
 
 
 
@@ -306,10 +311,15 @@ header {
 .sponspors-description{
   padding: 0px 25px;
 }
+.sponsors-img-container{
+  flex-direction: column;
+}
 .sponsors-img-container img{
   margin: 20px 0px;
 }
-
+footer{
+  margin: 35px 26px;
+}
 
 
 }
@@ -329,4 +339,8 @@ header {
 .some-fact-container, .sponsors-img-container {
   padding: 0px 25px;
 }
+footer{
+  margin: 80px 24px;
+}
+
 }
