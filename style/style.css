@@ -200,7 +200,31 @@ header {
   font-size: 1.4rem;
   color:#B9B9B9;
 }
+/* Sponsors section */
+.sponspors-text-container{
+  text-align: center;
+}
+.sponspors-title{
+  font-size: 2.81rem;
+  margin-bottom: 20px;
 
+}
+.sponspors-description{
+  color: #424242;
+  font-size: 1rem;
+  
+}
+.sponsors-img-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.sponsors-img-container img{
+  filter: grayscale(100%);
+
+}
 
 
 
@@ -279,6 +303,15 @@ header {
 .some-fact-text{
   padding: 0px 25px;
 }
+.sponspors-description{
+  padding: 0px 25px;
+}
+.sponsors-img-container img{
+  margin: 20px 0px;
+}
+
+
+
 }
 /* Media queries for Tablets or medium devices */
 
@@ -293,7 +326,7 @@ header {
     font-size: 1rem;
     
 }
-.some-fact-container {
+.some-fact-container, .sponsors-img-container {
   padding: 0px 25px;
 }
 }
