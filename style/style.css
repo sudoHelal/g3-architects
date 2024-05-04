@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* shared styles */
+body {
+  font-family: Work Sans;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.main-btn {
+  padding: 20px 30px;
+  font-size: 1.02rem;
+  background: #ff900e;
+  border: 0px;
+  outline: 0px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+header {
+  background: #fff4e7;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+.nav-logo {
+  font-size: 2.81rem;
+  font-weight: 700;
+  color: black;
+}
+.nav-container ul {
+  display: flex;
+  align-items: center;
+}
+.nav-container ul li {
+  margin-right: 25px;
+  list-style: none;
+}
+.nav-container ul li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 1rem;
+}
+/* banner section styles */
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 280px;
+}
+.banner-text {
+  text-align: center;
+}
+.banner-title {
+  font-size: 2.81rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 15px;
+}
+.banner-description {
+  font-size: 1rem;
+  color: #424242;
+  margin-bottom: 15px;
+}
+.banner-text > .main-btn {
+  margin-bottom: 25px;
+}
+.banner-img img {
+  width: 100%;
+}
+/* Our features section styles */
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-img-wapper, .feature-text{
+    width: 48%;
+}
+.feature-img-wapper{
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+
+}
+.feature-img{
+  flex-grow: 1;
+  flex-basis: 200px;
+  
+}
+
+.feature-img img{
+  width: 100%;
+}
+.feature-text-title{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.feature-section{
+  margin: 130px 0px;
+}
+.feature-description{
+  color: #424242;
+  margin-bottom: 15px;
+}
+/* Skill features section styles */
+.skill-feature-section{
+  margin-bottom: 110px;
+}
+.skill-feature-img, .skill-feature-text{
+  width: 48%;
+}
+.skill-feature-container{
+  display: flex;
+  justify-content: space-between;
+}
+.skill-feature-img img{
+  width: 100%;
+  object-fit: cover;
+}
+.experience{
+  width: 56%;
+  height: 15%;
+  border-radius: 10px;
+  background: #ff900e;
+  color: white;
+  font-size: 2.81rem;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  bottom: 94px;
+  left: -30px;
+}
+.skill-feature-title{
+  font-size: 2.81rem;
+  color: black;
+  border-left: 5px solid #ff900e;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.skill-description{
+  color: #424242;
+
+}
+.skill-feature-item-title{
+  font-size: 1rem;
+  margin-bottom: 15px;
+
+}
+.skill-feature-item{
+  margin: 20px 0px;
+  padding: 15px 20px 20px 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 576px) {
+  .nav-logo {
+    font-size: 1.81rem;
+  }
+  .nav-container,
+  .nav-container ul {
+    flex-direction: column;
+  }
+  .feature-container{
+    flex-direction: column-reverse;
+  }
+  .nav-container ul li {
+    margin: 5px 0px;
+  }
+  .banner-container {
+    display: flex;
+    padding: 8px 35px;
+    flex-direction: column;
+  }
+  .feature-img-wapper, .feature-text{
+    width: 90%;
+}
+.feature-img-wapper{
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.feature-img img{
+  margin: 30px 0px;
+}
+
+.feature-text{
+  text-align: center;
+}
+.feature-text .main-btn{
+  margin-bottom: 15px;
+}
+.skill-feature-container{
+  flex-direction: column;
+}
+.skill-feature-img, .skill-feature-text{
+  width: 90%;
+  padding: 0px 0px 0px 35px;
+}
+}
+/* Media queries for Tablets or medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner-container {
+    padding: 64px 89px;
+  }
+  .skill-feature-container, .feature-container{
+    padding: 0px 20px;
+  }
+}
