@@ -179,15 +179,17 @@ header {
 .some-fact-items-container{
   margin-top: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+
   margin-bottom: 100px;
 }
 .some-fact-item{
-  padding: 40px 35px;
+  padding: 30px 25px;
   border: 1px solid #ff900e;
   text-align: center;
   border-radius: 8px;
+  width: 23%;
 }
 .achivement{
   font-size: 3.00rem;
@@ -195,7 +197,7 @@ header {
   font-weight: 600;
 }
 .achivement-title{
-  font-size: 1.56rem;
+  font-size: 1.4rem;
   color:#B9B9B9;
 }
 
@@ -265,6 +267,18 @@ header {
 .experience{
   font-size: 1.81rem;
 }
+.some-fact-items-container{
+  margin-top: 48px;
+  flex-direction: column;
+
+}
+.some-fact-item{
+  width: 50%;
+  margin-bottom: 25px;
+}
+.some-fact-text{
+  padding: 0px 25px;
+}
 }
 /* Media queries for Tablets or medium devices */
 
@@ -275,4 +289,11 @@ header {
   .skill-feature-container, .feature-container{
     padding: 0px 20px;
   }
+  .achivement-title {
+    font-size: 1rem;
+    
+}
+.some-fact-container {
+  padding: 0px 25px;
+}
 }
